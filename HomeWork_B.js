@@ -27,7 +27,7 @@ while (true){
 console.log("Your Weight is :" + Weight + " kg!")
 
 
-var BMI = Weight/((Height/100)^2);
+var BMI = Weight/Math.pow((Height/100),2);
 console.log("BMI = " + BMI);
 console.log("-------------------------------");
 continue;
