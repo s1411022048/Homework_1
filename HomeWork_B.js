@@ -28,7 +28,7 @@ console.log("Your Weight is :" + Weight + " kg!")
 
 
 var BMI = Weight/Math.pow((Height/100),2);
-console.log("BMI = " + BMI);
+console.log("BMI = " + BMI.toFixed(2));
 console.log("-------------------------------");
 continue;
 }
